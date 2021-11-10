@@ -1,7 +1,8 @@
-import 'package:coffeeorder/details_page.dart';
+//import 'package:coffeeorder/details_page.dart';
 import 'package:flutter/material.dart';
 
 import 'details_page.dart';
+import 'details_page2.dart';
 
 void main() => runApp(MyApp());
 
@@ -103,9 +104,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     scrollDirection: Axis.horizontal,
                     children: [
                       _coffeeListCard('assets/starbucks.png',
-                          'Pumpkin Spice',
+                          'Pumpkn Spc',
                           'Starbucks',
-                          'Whip up a Caramel Pumpkin Spice Latte and enjoy an extra layer of deliciousness in this caramel-flavored twist on a fall favorite.',
+                          'Whip up a Caramel Pumpkin Spice Latte, a fall favorite.',
                           '\$5.25',
                           false
                       ),
@@ -304,7 +305,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             )
                         )
                     )
-                )
+                ),
+
               ],
             )
         )

@@ -1,12 +1,12 @@
 import "package:flutter_feather_icons/flutter_feather_icons.dart";
 import 'package:flutter/material.dart';
 import 'package:community_material_icon/community_material_icon.dart';
-class DetailsPage extends StatefulWidget {
+class DetailsPage2 extends StatefulWidget {
   @override
-  _DetailsPageState createState() => _DetailsPageState();
+  _DetailsPage2State createState() => _DetailsPage2State();
 }
 
-class _DetailsPageState extends State<DetailsPage> {
+class _DetailsPage2State extends State<DetailsPage2> {
 
   @override
   Widget build(BuildContext context) {
@@ -83,7 +83,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                       Icon(FeatherIcons.droplet, size: 10.0, color: Colors.white),
                                       Color(0xFF6FC5DA)),
                                   buildIngredientItem(
-                                      'Milk',
+                                      '2% Milk',
                                       Icon(FeatherIcons.target, size: 18.0, color: Colors.white),
                                       Color(0xFF615955)),
                                   buildIngredientItem(
@@ -91,19 +91,19 @@ class _DetailsPageState extends State<DetailsPage> {
                                       Icon(FeatherIcons.box, size: 18.0, color: Colors.white),
                                       Color(0xFFF39595)),
                                   buildIngredientItem(
-                                      'Chai Tea Blend',
+                                      'Spice Toppings',
                                       Icon(CommunityMaterialIcons.peanut, size: 18.0, color: Colors.white),
                                       Color(0xFF8FC28A)),
                                   buildIngredientItem(
-                                      'Honey',
+                                      'Tea',
                                       Icon(CommunityMaterialIcons.leaf, size: 18.0, color: Colors.white),
                                       Color(0xFF3B8079)),
                                   buildIngredientItem(
-                                      'Natural Flavors',
+                                      '2 Expresso Shots',
                                       Icon(CommunityMaterialIcons.leaf, size: 18.0, color: Colors.white),
                                       Color(0xFF3B8079)),
                                   buildIngredientItem(
-                                      'Ginger Juice',
+                                      'Whipped Cream',
                                       Icon(CommunityMaterialIcons.flower, size: 18.0, color: Colors.white),
                                       Color(0xFFF8B870)),
                                   SizedBox(width: 25.0)
@@ -138,7 +138,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               ),
                               SizedBox(width: 15.0),
                               Text(
-                                '237',
+                                '390',
                                 style: TextStyle(
                                     fontFamily: 'nunito',
                                     fontSize: 12.0,
@@ -158,7 +158,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           SizedBox(width: 15.0),
                           Text(
-                            '7.4g',
+                            '14g',
                             style: TextStyle(
                                 fontFamily: 'nunito',
                                 fontSize: 12.0,
@@ -177,7 +177,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           SizedBox(width: 15.0),
                           Text(
-                            '23.8mg',
+                            '150mg',
                             style: TextStyle(
                                 fontFamily: 'nunito',
                                 fontSize: 12.0,
@@ -245,7 +245,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               children: <Widget>[
                                 Container(
                                   width: 150.0,
-                                  child: Text('Chai Latte',
+                                  child: Text('Pumpkin Spice Latte',
                                       style: TextStyle(
                                           fontFamily: 'varela',
                                           fontSize: 30.0,
@@ -271,7 +271,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             SizedBox(height: 10.0),
                             Container(
                               width: 170.0,
-                              child: Text('Black tea infused with cinnamon, clove and other warming spices',
+                              child: Text('Whip up a Caramel Pumpkin Spice Latte, a fall favorite.',
                                   style: TextStyle(
                                       fontFamily: 'nunito',
                                       fontSize: 13.0,
@@ -436,7 +436,7 @@ class _DetailsPageState extends State<DetailsPage> {
     );
   }
 
-  _DetailsPageState(){
-    print("Testing in 1");
+  _DetailsPage2State(){
+    print("Testing");
   }
 }
