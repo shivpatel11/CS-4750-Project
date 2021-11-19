@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                    'Welcome To My Shop',
+                    'Welcome to my shop',
                     style: TextStyle(
                         fontFamily: 'varela',
                         fontSize: 30.0,
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.only(right: 45.0),
               child: Container(
                 child: Text(
-                  'Let\'s pick the best coffee for your next drink!',
+                  'Let\'s pick the best coffee for you!',
                   style: TextStyle(
                       fontFamily: 'nunito',
                       fontSize: 17.0,
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                Text('Coffee of the week',
+                Text('Coffee of the month',
                   style: TextStyle(
                       fontFamily: 'varela',
                       fontSize: 17.0,
